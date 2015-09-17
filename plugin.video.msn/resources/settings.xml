@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<settings>
+	<category label="General">
+		<setting visible="true" id="core-player" type="labelenum" label="Player Core" values="AUTO|DVDPLAYER|MPLAYER|PAPLAYER" default="AUTO" />
+		<setting visible="true" id="debug-enable" 	type="bool" label="Enable Debugging to File" default="true" />
+		<setting visible="true" id="debug-show" 		type="bool" label="Enable Debugging to Notice(s)" default="true" />
+        <setting id="password" type="number" label="bla" default="1"/>
+		<setting visible="true" id="address" type="text" label="IP Address" default="" />
+	</category>
+</settings>

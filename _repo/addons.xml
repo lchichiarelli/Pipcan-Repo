@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.4kking" name="4k Media" version="1.0.6" provider-name="Pipcan">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.urlresolver"  version="2.1.2"/>
+	<import addon="script.module.addon.common" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.demo-uhd"
+       name="Demo-UHD"
+       version="0.0.2"
+       provider-name="oneadvent">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Watch LiveLeak.com Videos</summary>
+    <language>en</language>
+    <description lang="en">Redefining The Media</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.easychannels" name="iWantTV" version="1.6" provider-name="pipcan-C0mmand">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Watch Free TV</summary>
+    <description>Just enjoy back on your counch and watch iWantTV....</description>
+  </extension>
+</addon>
+
+<addon id="plugin.video.failarmy"
+       name="FAILARMY"
+       version="0.1.0"
+       provider-name="Pipcan">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Created By Pipcan Skype:pipcan2015</summary>
+    <language>en</language>
+    <description lang="en"></description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.firstaddon"
+       name="MY FIRST ADDON"
+       version="0.0.3"
+       provider-name="Pipcan">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">ADDON</summary>
+    <language>en</language>
+    <description lang="en"></description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.getreading"
+       name="NEWS IN READING"
+       version="0.1.0"
+       provider-name="Pipcan">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Created By Pipcan Skype:pipcan2015</summary>
+    <language>en</language>
+    <description lang="en"></description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.guiadvanced" name="GUI Advanced" version="1.0.6" provider-name="Pipcan">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.urlresolver"  version="2.1.2"/>
+	<import addon="script.module.addon.common" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.guisamples" name="GUI SAMPLES" version="1.0.9" provider-name="Pipcan">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.urlresolver"  version="2.1.2"/>
+	<import addon="script.module.addon.common" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.iptvname" name="IPTV Manager Beta" version="1.61.0" provider-name="Pipcan">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.simplejson" version="3.3.0"/>
+<import addon="script.module.urlresolver"  version="2.1.2"/>
+<import addon="script.module.addon.common" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+<summary lang="en"/>
+<language>en</language>
+<description lang="en">SERVER FILES AVALIBLE
+due to the lack of people being bothered to give me feedback. people wishing to get the server files will have to go to http://facebook.com/kodicontrol and message me or leave a comment requesting the server files if you have truble</description>
+<platform>all</platform>
+</extension>
+</addon>
+
+<addon id="plugin.video.megasearch" name="Mega Search" version="2.20.0" provider-name="Pipcan">
+  <requires>
+    <import addon="xbmc.python" version="2.7.9"/>
+	<import addon="script.module.urlresolver"  version="2.1.2"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.msn" name="Bing Video" version="1.0.8" provider-name="Pipcan">
+  <requires>
+    <import addon="xbmc.python" version="2.7.9"/>
+	<import addon="script.module.urlresolver"  version="2.1.2"/>
+	<import addon="script.module.addon.common" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.musicvideos"
+    name="MUSIC  VIDEOS"
+    version="1.0"
+    provider-name="Pipcan">
+  <requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.simplejson" version="3.3.0"/>
+<import addon="script.module.urlresolver"  version="2.1.2"/>
+<import addon="script.module.addon.common" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es"></summary>
+    <description lang="es"></description>
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.password"
+       name="password template"
+       version="0.0.2"
+       provider-name="Pipcan">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">password template</summary>
+    <language>en</language>
+    <description lang="en"></description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.projectdroidupdate"
+       name="Project Droid Updater"
+       version="0.0.2"
+       provider-name="Pipcan">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Wizard Installer</summary>
+    <language>en</language>
+    <description lang="en"></description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.SGUIDE"
+    name="Ultimate TV Guide"
+    version="1.2"
+    provider-name="Pipcan">
+  <requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.simplejson" version="3.3.0"/>
+<import addon="script.module.urlresolver"  version="2.1.2"/>
+<import addon="script.module.addon.common" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es"></summary>
+    <description lang="es"></description>
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.updater"
+       name="Updater"
+       version="0.0.3"
+       provider-name="Pipcan">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Updater </summary>
+    <language>en</language>
+    <description lang="en"></description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.wizard"
+       name="Wizard"
+       version="0.0.2"
+       provider-name="Pipcan">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Wizard Installer</summary>
+    <language>en</language>
+    <description lang="en"></description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.Xtream-Codes"
+       name="Xtream-Codes"
+       version="0.1.5"
+       provider-name="Pipcan">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Watch Xtreamcodes channels Created By Pipcan Skype:pipcan2015</summary>
+    <language>en</language>
+    <description lang="en"></description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.pipcan" name="My Kodi Repo" version="1.0.2" provider-name="Pipccan">
+	<extension point="xbmc.addon.repository" name="My Kodi Repo">
+		<info compressed="false">http://raw.github.com/pipcan3/Pipcan-Repo/master/_repo/addons.xml</info>
+		<checksum>http://raw.github.com/pipcan3/Pipcan-Repo/master/_repo/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/pipcan3/Pipcan-Repo/master/_repo</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install my Addons</summary>
+		<description>Download Addon Templates</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>

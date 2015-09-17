@@ -1,0 +1,14 @@
+<?xml version="1.0.1" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.pipcan" name="My Kodi Repo" version="1.0.2" provider-name="Pipccan">
+	<extension point="xbmc.addon.repository" name="My Kodi Repo">
+		<info compressed="false">http://raw.github.com/pipcan3/Pipcan-Repo/master/_repo/addons.xml</info>
+		<checksum>http://raw.github.com/pipcan3/Pipcan-Repo/master/_repo/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/pipcan3/Pipcan-Repo/master/_repo</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install my Addons</summary>
+		<description>Download Addon Templates</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+

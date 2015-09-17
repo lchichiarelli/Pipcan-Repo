@@ -1,0 +1,7 @@
+<settings>
+<category label="Settings">
+     <setting id="passw" type="text" label="Password" default=""/>
+</category>
+
+
+</settings>

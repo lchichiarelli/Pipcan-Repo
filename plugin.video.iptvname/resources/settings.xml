@@ -1,0 +1,15 @@
+<settings>
+<category label="Account">
+     <setting id="username" type="text" label="Username" default=""/>
+     <setting id="password" type="text" label="Passwaord" default=""/>
+	 <setting id="firstrun" type="bool" label="First Run" default="false" visible="false"/>
+	 <setting id="login" type="bool" label="" default="false" visible="false"/>
+	 <setting id="site" type="select" label="site" values="http://localhost/xstream|http://mykodi.co.uk/xstream" default="http://localhost/xstream"/>
+</category>
+<category label="Reminders">
+    <setting id="event" type="text" label="Event" default=""/>
+    <setting id="record_date" type="date" label="Date" default="2015-03-12"/>	 
+    <setting id="record_time" type="time" label="Time" default="13:13:00"/>
+</category>
+
+</settings>

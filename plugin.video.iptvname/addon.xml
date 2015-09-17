@@ -1,0 +1,18 @@
+<addon id="plugin.video.iptvname" name="IPTV Manager Beta" version="1.61.0" provider-name="Pipcan">
+<requires>
+<import addon="xbmc.python" version="2.1.0"/>
+<import addon="script.module.simplejson" version="3.3.0"/>
+<import addon="script.module.urlresolver"  version="2.1.2"/>
+<import addon="script.module.addon.common" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="default.py">
+<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+<summary lang="en"/>
+<language>en</language>
+<description lang="en">SERVER FILES AVALIBLE
+due to the lack of people being bothered to give me feedback. people wishing to get the server files will have to go to http://facebook.com/kodicontrol and message me or leave a comment requesting the server files if you have truble</description>
+<platform>all</platform>
+</extension>
+</addon>

@@ -1,0 +1,9 @@
+<settings>
+<category label="Account">
+     <setting id="username" type="text" label="Username" default=""/>
+     <setting id="password" type="text" label="Password" default=""/>
+	 <setting id="firstrun" type="bool" label="First Run" default="false" visible="True"/>
+	 <setting id="login" type="bool" label="Login" default="false" visible="True"/>
+</category>
+
+</settings>
